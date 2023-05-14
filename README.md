@@ -16,11 +16,11 @@
   🛠️ Библиотеки для работы бота:
 </h2>
 
-- vkbottle==4.2.1
-- pyowm==3.3.0
-- Pillow==8.4.0
-- qrcode==7.3.1
-- translate==3.6.1
+- Python
+- VkBottle
+- Pillow
+- PyOWM
+
 
 
 
@@ -32,11 +32,11 @@
   🚀 Зпуск приложения:
 </h2>
 
-- git clone https://github.com/ElishaFlacon/vk-bot-creating-group-post.git
-- cd vk-bot-creating-group-post
-- python -m venv <venv_name>
-- source <venv_name>/Scripts/activate (linux) or <venv_name>/Scripts/activate (windows)
-- pip install -r ./requirements.txt
+- `git clone https://github.com/ElishaFlacon/vk-bot-creating-group-post.git`
+- `cd vk-bot-creating-group-post`
+- `python -m venv <venv_name>`
+- `<venv_name>/Scripts/activate` (windows) или `source <venv_name>/Scripts/activate` (linux)
+- `pip install -r ./requirements.txt`
 - регистрируемся на сайте OWM и получаем ключ (https://openweathermap.org)
 - добавте полученный ключ в код (weather_updater.pyw 7 строка)
 - регистрируемся в ВК и создаем группу (https://vk.com/)
@@ -46,7 +46,7 @@
 - в коде измените город для которого хотите получать прогноз погоды (weather_updater.pyw 11 строка)
 - по желанию можно включить функцию перевода описания погоды (weather_updater.pyw 25-26 строка) (у библиотеки ограниченное количество переводов)
 - изменяем остальной код под свои нужды
-- python main.py
+- `python main.py`
 <h3>
     Запускаем, не работет, ура! 🗿🚬
 </h3>
@@ -59,8 +59,11 @@
 <h2>
  📺 Демо:
 </h2>
+
+- <a href="https://github-production-user-asset-6210df.s3.amazonaws.com/83610362/233343029-6000ecc6-cf45-464f-b813-b5fc264ab1a6.mp4">Нажать чтобы демо!</a>
+
 <p aligh="center">
-<video src="https://user-images.githubusercontent.com/83610362/233343029-6000ecc6-cf45-464f-b813-b5fc264ab1a6.mp4" />
+<video src="https://github-production-user-asset-6210df.s3.amazonaws.com/83610362/233343029-6000ecc6-cf45-464f-b813-b5fc264ab1a6.mp4" />
 </p>
 
 
